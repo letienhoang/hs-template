@@ -1,0 +1,86 @@
+/***
+ Theme Name: Ecom
+ Description: Multipurpose Marketplace HTML Template + RTL
+ Version: 3.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+==============================
+TABLE CONTENT
+ Import Google Fonts
+ Include Third Party CSS Library
+ GENERAL
+ HEADER
+ Offcanvas Sidebar
+ Search form
+ Main header
+ Mega menu
+ Header layouts
+ Page layouts
+ Pagination
+ Breadcrumb
+ CATEGORY PAGES
+ SINGLE POST
+ Author box
+ comment
+ Post share social
+ WP STYPE
+ Custom amine
+***/
+
+// Configuration and helpers
+@use 'abstracts/variables' as *;
+@use 'abstracts/functions' as *;
+@use 'abstracts/mixins' as *;
+// Vendors
+@forward 'vendors/vendors-import';
+// Base stuff
+@forward 'base/common';
+@forward 'base/animation';
+@forward 'base/typography';
+// Components
+@forward 'components/buttons';
+@forward 'components/form';
+@forward 'components/slider';
+@forward 'components/noUISlider';
+@forward 'components/card';
+@forward 'components/tabs';
+@forward 'components/misc';
+@forward 'components/banners';
+// Themes
+@forward 'themes/default';
+// Layout-related sections
+@forward 'layout/header';
+@forward 'layout/navigation';
+@forward 'layout/sidebar';
+@forward 'layout/footer';
+@forward 'layout/spacing';
+// Page-specific styles
+@forward 'pages/homepage1';
+@forward 'pages/homepage2';
+@forward 'pages/homepage3';
+@forward 'pages/homepage4';
+@forward 'pages/homepage5';
+@forward 'pages/homepage6';
+@forward 'pages/homepage7';
+@forward 'pages/homepage8';
+@forward 'pages/homepage9';
+@forward 'pages/homepage10';
+@forward 'pages/shoplist';
+@forward 'pages/single-product';
+@forward 'pages/wishlist';
+@forward 'pages/cart';
+@forward 'pages/checkout';
+@forward 'pages/compare';
+@forward 'pages/blogs';
+@forward 'pages/vendor';
+@forward 'pages/account';
+@forward 'pages/about';
+@forward 'pages/shopgrid';
+// Responsive
+@forward 'layout/responsive';
+
+.page-content {
+    p   {
+        margin-bottom: 15px;
+    }
+}
