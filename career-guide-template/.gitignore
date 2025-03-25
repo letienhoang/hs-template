@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# SCSS compiled CSS
+assets/css/
+
+# SASS cache files
+.sass-cache/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Build files (nếu có)
+dist/
+out/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# Environment files
+.env
+.

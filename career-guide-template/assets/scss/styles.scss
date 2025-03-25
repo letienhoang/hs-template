@@ -1,0 +1,39 @@
+/***
+ Theme Name: Career Guide
+ Description: Career guidance and job portal theme
+ Version: 1.0
+ License: MIT License
+ License URI: http://opensource.org/licenses/MIT
+***/
+
+// Configuration and helpers
+@use 'abstracts/variables' as *;
+@use 'abstracts/functions' as *;
+@use 'abstracts/mixins' as *;
+// Vendors
+@forward 'vendors/vendors-import';
+// Base stuff
+@forward 'base/common';
+@forward 'base/animation';
+@forward 'base/typography';
+// Components
+@forward 'components/buttons';
+@forward 'components/form';
+@forward 'components/slider';
+@forward 'components/noUISlider';
+@forward 'components/card';
+@forward 'components/tabs';
+@forward 'components/misc';
+@forward 'components/banners';
+// Themes
+@forward 'themes/default';
+// Layout-related sections
+@forward 'layout/header';
+@forward 'layout/navigation';
+@forward 'layout/sidebar';
+@forward 'layout/footer';
+@forward 'layout/spacing';
+// Page-specific styles
+@forward 'pages/home';
+// Responsive
+@forward 'layout/responsive';
