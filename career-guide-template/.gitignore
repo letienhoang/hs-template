@@ -2,9 +2,6 @@
 node_modules/
 package-lock.json
 
-# SCSS compiled CSS
-assets/css/
-
 # SASS cache files
 .sass-cache/
 

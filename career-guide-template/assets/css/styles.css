@@ -1,0 +1,26 @@
+/***
+ Theme Name: Career Guide
+ Description: Career guidance and job portal theme
+ Version: 1.0
+ License: MIT License
+ License URI: http://opensource.org/licenses/MIT
+***/
+/*import vendors*/
+@import "../../css/vendors/bootstrap/bootstrap.min.css";
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

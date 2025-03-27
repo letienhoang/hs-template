@@ -1,6 +1,6 @@
 /*import vendors*/
 // @import url(../css/vendors/normalize.css);
-@use "../../../node_modules/bootstrap/scss/bootstrap" as *;
+@import "../../css/vendors/bootstrap/bootstrap.min.css"
 // @import url(../css/vendors/uicons-regular-rounded.css);
 // @import url(../css/plugins/swiper-bundle.min.css);
 // // @import url(../css/plugins/magnific-popup.css);
